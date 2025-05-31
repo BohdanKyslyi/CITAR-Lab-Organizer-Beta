@@ -414,13 +414,22 @@ p_210_x, p_310_x;
 
         void Main_NSAV3(double k, double N, double t1, double t2, double t3, double t4, double i1, double i2, double i3, double i4, double i)
         {
+            double nm1p1, nm2p2, nm3p3, nm4p4;
+            nm1p1 = 1 / (N - i1 + 1);
+            nm2p2 = 1 / (N - i2 + 1);
+            nm3p3 = 1 / (N - i3 + 1);
+            nm4p4 = 1 / (N - i4 + 1);
+            if (i1 == N + 1) { nm1p1 = 0; }
+            if (i2 == N + 1) { nm2p2 = 0; }
+            if (i3 == N + 1) { nm3p3 = 0; }
+            if (i4 == N + 1) { nm4p4 = 0; }
             double JM1, JM2, CD, lambdaI, t;
-            JM1 = ((k - 1) * ((t1 + t2 + t3 + t4) / (1 / (N - i1 + 1) + 1 / (N - i2 + 1) + 1 / (N - i3 + 1) + 1 / (N - i4 + 1))));
+            JM1 = ((k - 1) * ((t1 + t2 + t3 + t4) / (nm1p1 + nm2p2 + nm3p3 + nm4p4)));
             JM2 = (((N - i1 + 1) * t1) + ((N - i2 + 1) * t2) + ((N - i3 + 1) * t3) + ((N - i4 + 1) * t4));
-            CD = ((1 / (N - i1 + 1) + 1 / (N - i2 + 1) + 1 / (N - i3 + 1) + 1 / (N - i4 + 1)) / (t1 + t2 + t3 + t4));
+            CD = ((nm1p1 + nm2p2 + nm3p3 + nm4p4) / (t1 + t2 + t3 + t4));
             lambdaI = (CD * (N - (i - 1)));
             t = (1 / (lambdaI));
-            string final = (" JM1 = " + JM1 + "\n JM2 = " + JM2 + "\n CD = " + CD + "\n lambdaI = " + lambdaI + "\n t = " + t + ".");
+            string final = ("JM1 = " + JM1 + "\nJM2 = " + JM2 + "\nCD = " + CD + "\nlambdaI = " + lambdaI + "\nt = " + t + ".");
             ShowFinalInfoMessage(final);
         }
         void Main_NSAV4(
