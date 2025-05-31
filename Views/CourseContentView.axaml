@@ -1,0 +1,23 @@
+<!-- xmlns:views="clr-namespace:CITAR_Lab_Organizer_Beta.Views"-->
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:vm="using:CITAR_Lab_Organizer_Beta.ViewModels"
+			 mc:Ignorable="d"
+             x:Class="CITAR_Lab_Organizer_Beta.Views.CourseContentView"
+             x:DataType="vm:CourseContentViewModel">
+
+	<StackPanel Margin="20" Spacing="10">
+		<!--<views:CourseContentView />-->
+		<TextBlock Text="{Binding CourseName}" FontSize="20" FontWeight="Bold"/>
+		<ItemsControl ItemsSource="{Binding Buttons}">
+			<ItemsControl.ItemTemplate>
+				<DataTemplate>
+					<Button Content="{Binding}" Margin="0,5,0,0"
+							Click="Button_Click"/>
+				</DataTemplate>
+			</ItemsControl.ItemTemplate>
+		</ItemsControl>
+	</StackPanel>
+</UserControl>

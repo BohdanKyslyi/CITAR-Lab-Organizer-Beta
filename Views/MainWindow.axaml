@@ -1,0 +1,36 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:vm="using:CITAR_Lab_Organizer_Beta.ViewModels"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="640" d:DesignHeight="480"
+		MinWidth="640" MinHeight="480" MaxWidth="640" MaxHeight="480"
+        x:Class="CITAR_Lab_Organizer_Beta.Views.MainWindow"
+        x:DataType="vm:MainWindowViewModel"
+        Title="CITAR Lab Organizer"
+	    Icon="/Assets/logo-final.ico">
+
+    <Design.DataContext>
+        <vm:MainWindowViewModel/>
+    </Design.DataContext>
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="200"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <Border Grid.Column="0" Background="#2E3A59" Padding="10">
+            <StackPanel Spacing="10">
+				<Image Source="/Assets/test-2.png"></Image>
+                <TextBlock Text="Оберіть курс:" FontWeight="Bold" Foreground="White"/>
+                <Button Content="1 курс" Command="{Binding SelectCourseCommand}" CommandParameter="1"/>
+                <Button Content="2 курс" Command="{Binding SelectCourseCommand}" CommandParameter="2"/>
+                <Button Content="3 курс" Command="{Binding SelectCourseCommand}" CommandParameter="3"/>
+                <Button Content="4 курс" Command="{Binding SelectCourseCommand}" CommandParameter="4"/>
+            </StackPanel>
+        </Border>
+
+        <ContentControl Grid.Column="1" Content="{Binding SelectedCourseContent}" />
+    </Grid>
+</Window>
