@@ -415,17 +415,6 @@ p_210_x, p_310_x;
         void Main_NSAV3(double k, double N, double t1, double t2, double t3, double t4, double i1, double i2, double i3, double i4, double i)
         {
             double JM1, JM2, CD, lambdaI, t;
-            k = double.Parse(Console.ReadLine());
-            N = double.Parse(Console.ReadLine());
-            t1 = double.Parse(Console.ReadLine());
-            t2 = double.Parse(Console.ReadLine());
-            t3 = double.Parse(Console.ReadLine());
-            t4 = double.Parse(Console.ReadLine());
-            i1 = double.Parse(Console.ReadLine());
-            i2 = double.Parse(Console.ReadLine());
-            i3 = double.Parse(Console.ReadLine());
-            i4 = double.Parse(Console.ReadLine());
-            i = double.Parse(Console.ReadLine());
             JM1 = ((k - 1) * ((t1 + t2 + t3 + t4) / (1 / (N - i1 + 1) + 1 / (N - i2 + 1) + 1 / (N - i3 + 1) + 1 / (N - i4 + 1))));
             JM2 = (((N - i1 + 1) * t1) + ((N - i2 + 1) * t2) + ((N - i3 + 1) * t3) + ((N - i4 + 1) * t4));
             CD = ((1 / (N - i1 + 1) + 1 / (N - i2 + 1) + 1 / (N - i3 + 1) + 1 / (N - i4 + 1)) / (t1 + t2 + t3 + t4));
