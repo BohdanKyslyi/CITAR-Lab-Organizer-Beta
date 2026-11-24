@@ -1,0 +1,119 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Infernis\\source\\repos\\CITAR Lab Organizer Beta\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DE23A0A9-12F4-4506-9009-C5E8140A1380}|CITAR Lab Organizer Beta.csproj|c:\\users\\infernis\\source\\repos\\citar lab organizer beta\\views\\coursecontentview.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE23A0A9-12F4-4506-9009-C5E8140A1380}|CITAR Lab Organizer Beta.csproj|solutionrelative:views\\coursecontentview.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE23A0A9-12F4-4506-9009-C5E8140A1380}|CITAR Lab Organizer Beta.csproj|c:\\users\\infernis\\source\\repos\\citar lab organizer beta\\views\\mainwindow.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE23A0A9-12F4-4506-9009-C5E8140A1380}|CITAR Lab Organizer Beta.csproj|solutionrelative:views\\mainwindow.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE23A0A9-12F4-4506-9009-C5E8140A1380}|CITAR Lab Organizer Beta.csproj|c:\\users\\infernis\\source\\repos\\citar lab organizer beta\\views\\mainwindow.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
+      "RelativeMoniker": "D:0:0:{DE23A0A9-12F4-4506-9009-C5E8140A1380}|CITAR Lab Organizer Beta.csproj|solutionrelative:views\\mainwindow.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE23A0A9-12F4-4506-9009-C5E8140A1380}|CITAR Lab Organizer Beta.csproj|c:\\users\\infernis\\source\\repos\\citar lab organizer beta\\viewmodels\\coursecontentviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE23A0A9-12F4-4506-9009-C5E8140A1380}|CITAR Lab Organizer Beta.csproj|solutionrelative:viewmodels\\coursecontentviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE23A0A9-12F4-4506-9009-C5E8140A1380}|CITAR Lab Organizer Beta.csproj|c:\\users\\infernis\\source\\repos\\citar lab organizer beta\\viewmodels\\mainwindowviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE23A0A9-12F4-4506-9009-C5E8140A1380}|CITAR Lab Organizer Beta.csproj|solutionrelative:viewmodels\\mainwindowviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE23A0A9-12F4-4506-9009-C5E8140A1380}|CITAR Lab Organizer Beta.csproj|c:\\users\\infernis\\source\\repos\\citar lab organizer beta\\views\\coursecontentview.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
+      "RelativeMoniker": "D:0:0:{DE23A0A9-12F4-4506-9009-C5E8140A1380}|CITAR Lab Organizer Beta.csproj|solutionrelative:views\\coursecontentview.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.axaml.cs",
+              "DocumentMoniker": "C:\\Users\\Infernis\\source\\repos\\CITAR Lab Organizer Beta\\Views\\MainWindow.axaml.cs",
+              "RelativeDocumentMoniker": "Views\\MainWindow.axaml.cs",
+              "ToolTip": "C:\\Users\\Infernis\\source\\repos\\CITAR Lab Organizer Beta\\Views\\MainWindow.axaml.cs",
+              "RelativeToolTip": "Views\\MainWindow.axaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T13:04:29.122Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CourseContentView.axaml.cs",
+              "DocumentMoniker": "C:\\Users\\Infernis\\source\\repos\\CITAR Lab Organizer Beta\\Views\\CourseContentView.axaml.cs",
+              "RelativeDocumentMoniker": "Views\\CourseContentView.axaml.cs",
+              "ToolTip": "C:\\Users\\Infernis\\source\\repos\\CITAR Lab Organizer Beta\\Views\\CourseContentView.axaml.cs",
+              "RelativeToolTip": "Views\\CourseContentView.axaml.cs",
+              "ViewState": "AQIAAIEBAAAAAAAAAAAiwI8BAABIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-08T21:11:56.607Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainWindow.axaml",
+              "DocumentMoniker": "C:\\Users\\Infernis\\source\\repos\\CITAR Lab Organizer Beta\\Views\\MainWindow.axaml",
+              "RelativeDocumentMoniker": "Views\\MainWindow.axaml",
+              "ToolTip": "C:\\Users\\Infernis\\source\\repos\\CITAR Lab Organizer Beta\\Views\\MainWindow.axaml",
+              "RelativeToolTip": "Views\\MainWindow.axaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-08T20:59:28.103Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CourseContentViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Infernis\\source\\repos\\CITAR Lab Organizer Beta\\ViewModels\\CourseContentViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\CourseContentViewModel.cs",
+              "ToolTip": "C:\\Users\\Infernis\\source\\repos\\CITAR Lab Organizer Beta\\ViewModels\\CourseContentViewModel.cs",
+              "RelativeToolTip": "ViewModels\\CourseContentViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAC0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-08T21:13:29.639Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CourseContentView.axaml",
+              "DocumentMoniker": "C:\\Users\\Infernis\\source\\repos\\CITAR Lab Organizer Beta\\Views\\CourseContentView.axaml",
+              "RelativeDocumentMoniker": "Views\\CourseContentView.axaml",
+              "ToolTip": "C:\\Users\\Infernis\\source\\repos\\CITAR Lab Organizer Beta\\Views\\CourseContentView.axaml",
+              "RelativeToolTip": "Views\\CourseContentView.axaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-08T21:11:56.849Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MainWindowViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Infernis\\source\\repos\\CITAR Lab Organizer Beta\\ViewModels\\MainWindowViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\MainWindowViewModel.cs",
+              "ToolTip": "C:\\Users\\Infernis\\source\\repos\\CITAR Lab Organizer Beta\\ViewModels\\MainWindowViewModel.cs",
+              "RelativeToolTip": "ViewModels\\MainWindowViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-08T20:59:18.209Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
